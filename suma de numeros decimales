@@ -1,0 +1,11 @@
+//es un progrma que suma datos de tipo decimal y da el resultado en decimal
+#include <stdio.h>
+int main(){
+	float a,b,c;
+	printf("ingrese los valores que quiere sumar");
+	scanf("%f", &a);
+	scanf("%f", &b);
+	c=a+b;
+	printf("El valor de la suma es: %f", c);
+	return 0;
+}
