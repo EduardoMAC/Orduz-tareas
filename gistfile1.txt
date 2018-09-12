@@ -1,0 +1,18 @@
+//te da el valor de el area,perimetr y volumen a partir de el radio proporsionado por el usuario
+#include <stdio.h>
+#define PI 3.1416
+int main(){
+	float r;
+	float p;
+	float a;
+	float v;
+	printf("Dame el valor del radio, plox :3");
+	scanf("%f", &r);
+	p=PI*r*2;
+	a=PI*r*r;
+	v=(4/3)*PI*(r*r*r);
+	printf("El perimetro es: %f\n", p);
+	printf("El area es: %f\n", a);
+	printf("El volumen es: %f\n", v);
+	
+}
