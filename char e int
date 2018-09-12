@@ -1,0 +1,14 @@
+//el prigrma ada dos tipos de datos, datos char y datos int
+#include <stdio.h>
+int main ( )
+{
+char nombre[15] ;
+int a;
+printf ("hola.\n");
+printf("Como te gusta que te llamen?");
+scanf("%8s", nombre);
+printf ("\nMucho gusto %8s.", nombre);
+printf ("\n¿cuantos anios tienes?.\n");
+scanf("%i", &a);
+printf("yo tambien tube %i\n", a);
+}
